@@ -298,7 +298,7 @@ sns.countplot('Education',data=data_set)
 
 
     
-![png](output_21_1.png)
+![png](.img/output_21_1.png)
     
 
 
@@ -318,7 +318,7 @@ sns.barplot(data_set['Education'],data_set['target'])
 
 
     
-![png](output_23_1.png)
+![png](.img/output_23_1.png)
     
 
 
@@ -419,7 +419,7 @@ sns.histplot(data_set['Income'])
 
 
     
-![png](output_33_1.png)
+![png](.img/output_33_1.png)
     
 
 
@@ -446,7 +446,7 @@ sns.boxplot(y=data_set['Income'])
 
 
     
-![png](output_36_1.png)
+![png](.img/output_36_1.png)
     
 
 
@@ -466,7 +466,7 @@ sns.distplot(data_set['Income'],bins=50)
 
 
     
-![png](output_37_1.png)
+![png](.img/output_37_1.png)
     
 
 
@@ -478,7 +478,7 @@ qq=stats.probplot(data_set['Income'],plot=plt)
 
 
     
-![png](output_38_0.png)
+![png](.img/output_38_0.png)
     
 
 
@@ -1228,7 +1228,7 @@ sns.distplot(data_set['Income'],bins=50,ax=ax2)
 
 
     
-![png](output_43_1.png)
+![png](.img/output_43_1.png)
     
 
 
@@ -1616,7 +1616,7 @@ sns.histplot(data_set['Income_category'],bins=10)
 
 
     
-![png](output_48_1.png)
+![png](.img/output_48_1.png)
     
 
 
@@ -1666,7 +1666,7 @@ sns.histplot(data_set['Age'])
 
 
     
-![png](output_55_1.png)
+![png](.img/output_55_1.png)
     
 
 
@@ -1689,7 +1689,7 @@ plt.plot(AgeIncome)
 
 
     
-![png](output_57_1.png)
+![png](.img/output_57_1.png)
     
 
 
@@ -1726,7 +1726,7 @@ plt.hist(data_set['Age_category'])
 
 
     
-![png](output_60_1.png)
+![png](.img/output_60_1.png)
     
 
 
@@ -1789,7 +1789,7 @@ sns.barplot(data_set['Accepted_total'],data_set['target'])
 
 
     
-![png](output_65_1.png)
+![png](.img/output_65_1.png)
     
 
 
@@ -1834,7 +1834,7 @@ sns.barplot(data_set['Accepted_Num'],data_set['target'])
 
 
     
-![png](output_69_1.png)
+![png](.img/output_69_1.png)
     
 
 
@@ -1856,7 +1856,7 @@ sns.barplot(data_set['Complain'],data_set['target'])
 
 
     
-![png](output_71_1.png)
+![png](.img/output_71_1.png)
     
 
 
@@ -1883,7 +1883,7 @@ sns.barplot(data_set['Kidhome'],data_set['target'])
 
 
     
-![png](output_75_1.png)
+![png](.img/output_75_1.png)
     
 
 
@@ -2027,7 +2027,7 @@ sns.histplot(data_set.loc[data_set['Kid_binary']==1,'target'])
 
 
     
-![png](output_84_1.png)
+![png](.img/output_84_1.png)
     
 
 
